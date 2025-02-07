@@ -63,7 +63,7 @@ const getNoteByIdHandler = (request, h) => {
             },
         });
 
-        res.code(201);
+        res.code(200);
 
         return res;
 
